@@ -1,6 +1,6 @@
 {
-  "name": "swagger-typescript-api",
-  "version": "13.0.4",
+  "name": "spartan-swagger-typescript-api-generator",
+  "version": "0.0.1",
   "description": "Generate typescript/javascript api from swagger schema",
   "scripts": {
     "update-deps-to-latest": "npx --yes npm-check-updates && npm i",
@@ -133,6 +133,9 @@
   "homepage": "https://github.com/acacode/swagger-typescript-api",
   "repository": {
     "type": "git",
-    "url": "git://github.com/acacode/swagger-typescript-api"
+    "url": "git://github.com/acacode/swagger-typescript-api.git"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
